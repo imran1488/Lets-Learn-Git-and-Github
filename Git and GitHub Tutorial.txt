@@ -1,0 +1,58 @@
+﻿ALL ABOUT GIT 
+// To check the version of git 
+→git  –version
+
+
+// To set the username,email and password in git
+→git  config –global user.name “Imran Ali”
+→git  config –global user.email “imranali.code@gmail.com”
+
+
+//To check the username and email 
+→git config –global user.email
+
+
+// To change something in config file 
+→git  config –global –edit
+
+
+//To make directory
+→mkdir  letslearngit
+
+
+//To change directory
+→cd  lets learngit
+
+
+//To track a folders using git we run below command
+//To initialize git 
+→git  init
+
+
+//To check the status of file that what changes and modifications that have been done in this folder
+→git  status
+
+
+//Before Commiting the code first we track the file and then we commit
+// We use the below command to track all the file
+→git  add –all
+
+
+//To commit we use
+→git commit -m "This is the first project of HTML CSS and JavaScript"
+
+
+// To check the commits and who has done the commits we use
+→ git log
+
+
+//To create the branch 
+→git branch “branch_name”
+
+
+//To switch between branch 
+→git checkout “branch_name”
+
+
+//To merge from a branch in another branch 
+→git merge “name_of _branch”
